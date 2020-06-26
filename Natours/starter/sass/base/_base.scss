@@ -1,0 +1,22 @@
+/* Resetting the styles */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* This is to ensure that we get 10px as default
+    It's important to remember that the default
+    font size for the browser is 16px so 
+    10/16 = 0.625. In summary this defines
+    what 1rem is
+   */
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
